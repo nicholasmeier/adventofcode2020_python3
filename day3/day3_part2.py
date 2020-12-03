@@ -5,11 +5,12 @@ def Main():
     slopes = [[1,1],[3,1],[5,1],[7,1],[1,2]]
     
     mtn = f.read().splitlines()
-    i = 0
-    j = 0
+    
 
     t_cnt=1
     for s in slopes:
+        i = 0
+        j = 0
         cnt = 0
         s_x = s[0]
         s_y = s[1]
