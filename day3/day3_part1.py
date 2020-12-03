@@ -17,10 +17,6 @@ def Main():
             break
         if (i >= len(mtn[j])):
             i = 0+(i-len(mtn[j]))
-        print(mtn[j])
-        print(mtn[j][i])
-        print("i: " + str(i))
-        print("j: " + str(j))
         if mtn[j][i] == '#':         
             cnt += 1
     print(cnt)
