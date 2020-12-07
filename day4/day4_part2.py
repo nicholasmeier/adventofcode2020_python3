@@ -1,4 +1,4 @@
-# Goal : find # of valid passports
+# Goal : find # of valid passports with input validation
 import sys
 def Main():
     f = open("input.txt", "r")
